@@ -1,46 +1,38 @@
-.image-container {
-    position: relative;
-    overflow: hidden;
+.image-container{
+    position: cover
+;
+    width: 100%;
+    z-index: -1;
 }
 
-.overlay-text {
+.image-text {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
-    font-size: 24px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.649);
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
 }
 
-
-footer {
-    background-color: #555;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-footer ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul li a {
-    color: #fff;
+.card a {
+    color: black;
     text-decoration: none;
 }
 
-footer ul li a:hover {
-    text-decoration: underline;
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
+
 
 
 
